@@ -91,12 +91,8 @@ export const AuthorizationTester: React.FC = () => {
           <div className="text-center py-16">
             <Shield className="mx-auto h-16 w-16 text-gray-400 mb-6" />
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-              Welcome to the Authorization Service Tester
+              Authorization Service Tester
             </h2>
-            <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-              This tool allows you to test the authentication and authorization service by validating JWT tokens 
-              and checking permissions against various resources and actions. Sign in with Auth0 to get started.
-            </p>
             <div className="bg-white rounded-lg shadow p-6 max-w-lg mx-auto">
               <h3 className="text-lg font-medium text-gray-900 mb-4">Features</h3>
               <div className="space-y-3 text-sm text-left">
